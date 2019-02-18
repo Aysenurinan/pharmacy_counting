@@ -30,6 +30,29 @@ AMBIEN,2,300<br/>
 For this challenge, I did not use any external libraries, like csv. However, I only used ```decimal```
 in order to have nice "total_cost" values.
 
+## Repository Directory
+
+ ├── README.md 
+    ├── run.sh
+    ├── src
+    │   └── pharmacy-counting.py
+    ├── input
+    │   └── itcont.txt
+    ├── output
+    |   └── top_cost_drug.txt
+    ├── insight_testsuite
+        └── run_tests.sh
+        └── tests
+            └── test_1
+            |   ├── input
+            |   │   └── itcont.txt
+            |   |__ output
+            |   │   └── top_cost_drug.txt
+            ├── test_2
+                ├── input
+                │   └── itcont.txt
+                |── output
+                    └── top_cost_drug.txt
 ## Approach to solving the coding challenge:
 - I created a multidimensional dictionary; where my first dictionary checked each line of the input file for the **drug name**.
 My second dictionary, checked the **id** and lastly, corresponding **drug_cost** is saved as values to our multidimensional dictionary.
@@ -39,3 +62,4 @@ My second dictionary, checked the **id** and lastly, corresponding **drug_cost**
   - Some entries had single name instead of last name and first name<br/>
 <br/>
 I fixed those problems and the code runs without any errors.
+
