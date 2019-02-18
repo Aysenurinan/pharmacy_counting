@@ -43,8 +43,12 @@ AMBIEN,2,300<br/>
 For this challenge, I did not use any external libraries, like csv. 
 However, since I cared about the accuracy of rounding for "total_cost" values , I used decimal type. (```decimal```)
 
-- I created a multidimensional dictionary; where my first dictionary checked each line of the input file for the **drug name**.
-My second dictionary, checked the **id** and corresponding **drug_cost** is saved as values to our multidimensional dictionary.
+1. The code opened the input file and read each line.
+2. Skipped the header, which is: <br/>id,prescriber_last_name,prescriber_first_name,drug_name,drug_cost<br/>
+3. Some entries had comma in certain fields, i.e. inside the last name, first name or the cost. For this reason, the code did not use commas when splitting by comma
+4. I generated a multidimensional dictionary; where the first dimension of the dictionary indexed by the **drug name**, while the second dimension of the dictionary is indexed by **prescriber id** and the values of this two dimensional dictionary is the **drug_cost**
+5. 
+
 - After ensuring that my python code worked on two small input files, which are 'itcont.txt' and a portion of the original big data file ('file50.txt'), I decided to try my code on the original input data('de_cc_data.txt')
 - I received some errors:
   - Some entries had comma in certain areas
