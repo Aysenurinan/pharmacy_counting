@@ -1,6 +1,6 @@
 ## pharmacy_counting
 
-This is a repository created for Insight coding challenge.
+This is a repository created for *Insight coding challenge*.
 
 In this repository we are asked to create the output file, top_cost_drug.txt, that contains comma (,) separated fields in each line.
 
@@ -13,16 +13,18 @@ For example
 
 So, if the input data, itcont.txt, is
 
-id,prescriber_last_name,prescriber_first_name,drug_name,drug_cost
-1000000001,Smith,James,AMBIEN,100
-1000000002,Garcia,Maria,AMBIEN,200
-1000000003,Johnson,James,CHLORPROMAZINE,1000
-1000000004,Rodriguez,Maria,CHLORPROMAZINE,2000
-1000000005,Smith,David,BENZTROPINE MESYLATE,1500
+id,prescriber_last_name,prescriber_first_name,drug_name,drug_cost<br/>
+1000000001,Smith,James,AMBIEN,100<br/>
+1000000002,Garcia,Maria,AMBIEN,200<br/>
+1000000003,Johnson,James,CHLORPROMAZINE,1000<br/>
+1000000004,Rodriguez,Maria,CHLORPROMAZINE,2000<br/>
+1000000005,Smith,David,BENZTROPINE MESYLATE,1500<br/>
 
 then the output file, top_cost_drug.txt, should contain the following lines
 
-drug_name,num_prescriber,total_cost
-CHLORPROMAZINE,2,3000
-BENZTROPINE MESYLATE,1,1500
-AMBIEN,2,300
+drug_name,num_prescriber,total_cost<br/>
+CHLORPROMAZINE,2,3000<br/>
+BENZTROPINE MESYLATE,1,1500<br/>
+AMBIEN,2,300<br/>
+
+
