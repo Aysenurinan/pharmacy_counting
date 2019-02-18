@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 declare -r color_start="\033["
