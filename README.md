@@ -32,27 +32,28 @@ in order to have nice "total_cost" values.
 
 ## Repository Directory
 
- ├── README.md 
-    ├── run.sh
-    ├── src
-    │   └── pharmacy-counting.py
-    ├── input
-    │   └── itcont.txt
-    ├── output
-    |   └── top_cost_drug.txt
-    ├── insight_testsuite
-        └── run_tests.sh
-        └── tests
-            └── test_1
-            |   ├── input
-            |   │   └── itcont.txt
-            |   |__ output
-            |   │   └── top_cost_drug.txt
-            ├── test_2
-                ├── input
-                │   └── itcont.txt
-                |── output
-                    └── top_cost_drug.txt
+ ├── README.md<br/> 
+    ├── run.sh<br/>
+    ├── src<br/>
+    │   └── pharmacy-counting.py<br/>
+    ├── input<br/>
+    │   └── itcont.txt<br/>
+    ├── output<br/>
+    |   └── top_cost_drug.txt<br/>
+    ├── insight_testsuite<br/>
+    ---    └── run_tests.sh<br/>
+    ---    └── tests<br/>
+    -----        └── test_1<br/>
+    -----        |   ├── input<br/>
+    -----        |   │   └── itcont.txt<br/>
+    -----        |   |__ output<br/>
+    -----        |   │   └── top_cost_drug.txt<br/>
+    -----        ├── test_2<br/>
+    -----           - ├── input<br/>
+    -----           - │   └── itcont.txt<br/>
+    -----           - |── output<br/>
+    -----           -     └── top_cost_drug.txt<br/>
+                    
 ## Approach to solving the coding challenge:
 - I created a multidimensional dictionary; where my first dictionary checked each line of the input file for the **drug name**.
 My second dictionary, checked the **id** and lastly, corresponding **drug_cost** is saved as values to our multidimensional dictionary.
