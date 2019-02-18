@@ -1,4 +1,4 @@
-## pharmacy_counting
+# pharmacy_counting
 
 This is a repository created for *Insight coding challenge*.
 
@@ -27,4 +27,15 @@ CHLORPROMAZINE,2,3000<br/>
 BENZTROPINE MESYLATE,1,1500<br/>
 AMBIEN,2,300<br/>
 
+For this challenge, I did not use any external libraries, like csv. However, I only used ```decimal```
+in order to have nice "total_cost" values.
 
+## Approach to solving the coding challenge:
+- I created a multidimensional dictionary; where my first dictionary checked each line of the input file for the **drug name**.
+My second dictionary, checked the **id** and lastly, corresponding **drug_cost** is saved as values to our multidimensional dictionary.
+- After ensuring that my python code worked on two small input files, which are 'itcont.txt' and first fifty lines of the original big data file('file50.txt'), I decided to try my code on the original input data('de_cc_data.txt')
+- I received some errors:
+  - Some entries had comma in certain areas
+  - Some entries had single name instead of last name and first name<br/>
+<br/>
+I fixed those problems and the code runs without any errors.
