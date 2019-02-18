@@ -1,18 +1,19 @@
+#!/usr/bin/python
 
-# coding: utf-8
-
-# In[1]:
-
+import sys
 
 from decimal import Decimal
 
-out_file = open('top_cost_drug.txt', 'w')
+input_file_name = sys.argv[1]
+output_file_name = sys.argv[2]
+
+out_file = open(output_file_name, 'w')
 
 out_file.write('drug_name,num_prescriber,total_cost\n')
 
 drug_dict = {}
 
-with open('itcont.txt', 'r') as big_file:
+with open(input_file_name, 'r') as big_file:
 #with open('de_cc_data.txt', 'r') as big_file:
 #with open('file50.txt', 'r') as big_file:
     line = big_file.readline() ## skip the header
@@ -74,4 +75,5 @@ for entry in output_list:
     out_file.write(out_value)
 
 out_file.close()
+
 
