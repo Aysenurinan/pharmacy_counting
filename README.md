@@ -1,4 +1,4 @@
-##pharmacy_counting
+## pharmacy_counting
 
 This is a repository created for Insight coding challenge.
 
