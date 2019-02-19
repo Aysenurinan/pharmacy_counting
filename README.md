@@ -1,8 +1,8 @@
 # Table of Contents
-1. [Description of the problem](README.md#description)
-2. [Input dataset and output file](README.md#data)
+1. [Description of the problem](README.md#description-of-the-problem)
+2. [Input dataset and output file](README.md#input-dataset-and-output-file)
 3. [Approach](README.md#approach)
-4. [Testing the code](README.md#testing)
+4. [Testing the code](README.md#testing-the-code)
 
 # Description of the problem
 
