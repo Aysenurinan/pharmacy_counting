@@ -51,7 +51,7 @@ However, since I cared about the accuracy of rounding for "total_cost" values , 
 **id,prescriber_last_name,prescriber_first_name,drug_name,drug_cost** <br/>
 If the length is less than 5, I defined that "**prescriber_first_name**" is not entered.
 6. I generated a multidimensional dictionary; where the first dimension of the dictionary indexed by the **drug name**, while the second dimension of the dictionary is indexed by **prescriber id** and the values of this two dimensional dictionary is the **drug_cost**
-7. I checked within the program **pharmacy_counting.py** whether there was **drug name** listed more than once for the same person to identify the unique prescribers.
+7. I checked within the program, **pharmacy_counting.py**, whether there was **drug name** listed more than once for the same person to identify the unique prescribers.
 8. Then, I sorted the list in my dictionary by **drug name** in ascending order.
 9. Lastly, I sorted the list by **total_cost**
 10. The output file is named as **out_file**
